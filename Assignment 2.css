@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background{
+    height: 100%;
+    width: 100%;
+    background: -webkit-linear-gradient(left,#f6cf06,#f67e06,#fb021c);
+    background-size: cover;
+     position:absolute;
+     background-position: center;
+}
+.container{
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    position: relative;
+    margin: 5% auto;
+    border-radius: 5%;
+}
+#registration{
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+.name{
+    margin: 20px 30px;
+    font-size: large;
+    padding: 10px 30px;
+    
+}
+.button{
+margin: 20px 200px;
+padding: 10px 35px;
+background: -webkit-linear-gradient(left,#f6cf06,#f67e06,#fb021c);
+border: none;
+cursor: pointer;
+font-size: large;
+color: #fff;
+}
+.button:hover{
+    background:#c8c8c8;
+    opacity: 0.5s;
+}
+@media (max-width: 600px) {
+    .container input[type="text"], .container input[type="email"], .container input[type="password"], .container input[type="username"] {
+      width: 100%;
+    }
+  }
