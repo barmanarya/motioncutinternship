@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Patrick Hand", cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #E6BF83;
+    min-height: 100vh;
+}
+
+.page{
+     height: 700px;
+     width: 500px;
+     background-color: #FFFDD0;
+     margin: 30px 0;
+     border-radius: 10%;
+}
+/*upper page*/
+.upper-page{
+    font-size: 60px;
+    color: #704214;
+    text-align: center;
+    border-bottom: 6px dotted #704214;
+}
+.middle-page{
+    width: 100%;
+    height: 75%;
+    overflow-y: scroll;
+}
+.middle-page ul li{
+    list-style-type: none;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+    color: #704214;
+    border-bottom: 2px solid #704214;
+}
+.middle-page ul .checked{
+    color:#DA8A67;
+    text-decoration: line-through;
+}
+/*lower page*/
+.lower-page{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.lower-page input{
+    width: 85%;
+    height: 100%;
+    font-size: x-large;
+    border-radius: 10px;
+    color: #704214;
+    border-color: #704214;
+}
+.lower-page input::placeholder{
+    color: #704214;
+}
+.lower-page i{
+    font-size: 40px;
+    cursor: pointer;
+    color: #704214;
+}
